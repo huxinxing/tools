@@ -1,0 +1,19 @@
+1.1 maven创建一般的java项目
+Mvn archetype:generate -DgroupId=com.huxinxing.mapleleaf -DartifactId=mapleafJava -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+Mvn archetype:generate   固定格式
+-DgroupId=com.huxinxing.mapleleaf   组织格式
+-DartifactId=mapleaf  创建项目名称
+-DarchetypeArtifactId=maven-archetype-quickstart  创建java项目
+-DarchetypeArtigactId=maven-archetype-webapp   创建一个web项目
+-DinteractiveMode=false  是否为交互模式
+
+1.2、创建web项目
+Mvn archetype:generate -DgroupId=com.huxinxing.mapleaf -DartifactId=mapleafWEB -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+创建eclipse项目 Mvn eclipse:eclipse
+创建eclipse web项目 mvn -Dwtpversion=1.0 eclipse:eclipse
+mvn项目重新编译： mvn install         maven消除eclipse项目
+
+
+
+1.3 maven创建springMVC
+Mvn archetype:generate -DgroupId=com.huxinxing.mapleaf -DartifactId=mapleafWEB -DarchetypeArtifactId=maven-archetype-webapp 
