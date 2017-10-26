@@ -12,3 +12,8 @@ Mvn archetype:generate -DgroupId=com.huxinxing.mapleaf -DartifactId=mapleafWEB -
 创建eclipse项目 Mvn eclipse:eclipse
 创建eclipse web项目 mvn -Dwtpversion=1.0 eclipse:eclipse
 mvn项目重新编译： mvn install         maven消除eclipse项目
+
+
+
+1.3 maven创建springMVC
+Mvn archetype:generate -DgroupId=com.huxinxing.mapleaf -DartifactId=mapleafWEB -DarchetypeArtifactId=maven-archetype-webapp 
